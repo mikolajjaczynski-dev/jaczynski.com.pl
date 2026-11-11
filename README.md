@@ -3,6 +3,14 @@
 Strona „w budowie” — Mikołaj Jaczyński · Sieci wod-kan w praktyce.
 Publikowana przez GitHub Pages (gałąź main, katalog główny).
 
+## Google
+
+- `robots.txt`: pozwala indeksować całą stronę i wskazuje mapę strony.
+- `sitemap.xml`: lista adresów. Dodając podstronę, dopisz ją tutaj i zmień `lastmod`.
+- `index.html`: `<link rel="canonical" href="https://jaczynski.com.pl/">`.
+- Google Search Console: usługa typu Domena `jaczynski.com.pl`, weryfikacja
+  rekordem TXT w VH.pl (nazwa `@`), mapa strony zgłoszona w zakładce „Mapy witryn”.
+
 ## Domeny dodatkowe — przekierowania
 
 `jaczynski.com.pl` jest jedyną domeną z treścią (domena kanoniczna dla Google).
