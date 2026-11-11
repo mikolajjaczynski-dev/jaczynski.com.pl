@@ -31,6 +31,7 @@ main{max-width:960px;margin:0 auto;padding:var(--pad) 16px;display:flex;flex-dir
 .li:focus-visible{outline:2px solid var(--wodociag);outline-offset:2px}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .li{color:#ffffff}}
 .logo svg{display:block;width:100%;max-width:var(--lw);height:auto;margin:0 auto}
+.logo svg.v{display:none}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .logo{background:#0f2e44}}
 .l-bg{fill:#ffffff}.l-nm{fill:#0f2e44}.l-tg{fill:#8b5a36}.l-sv{fill:#3c4d59}.l-dash{fill:#2e7d5b}
 .logo svg{--zw:#1d5a85;--zk:#8b5a36;--znw:#0f2e44;--znk:#8b5a36;--zg:#2e7d5b;--zr:#ffffff}
@@ -76,7 +77,10 @@ main{max-width:960px;margin:0 auto;padding:var(--pad) 16px;display:flex;flex-dir
 @media (max-width:600px){
  html{scroll-snap-type:y mandatory}
  main{padding:0;gap:0}
- .hero{height:100vh;height:100svh;justify-content:center;gap:28px;padding:0 16px;scroll-snap-align:start}
+ .hero{height:100vh;height:100svh;justify-content:space-between;gap:16px;padding:16px 16px 20px;scroll-snap-align:start}
+ .logo{flex:1 1 auto;min-height:0;max-width:none;display:flex;align-items:center;justify-content:center;padding:12px}
+ .logo svg.h{display:none}
+ .logo svg.v{display:block;width:100%;height:100%;max-width:none;max-height:100%}
  .down{display:grid;place-items:center;width:52px;height:52px;border-radius:50%;border:1.5px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer;animation:bob 1.8s ease-in-out infinite}
  .down svg{width:24px;height:24px}
  @keyframes bob{50%{transform:translateY(8px)}}
@@ -119,6 +123,15 @@ main{max-width:960px;margin:0 auto;padding:var(--pad) 16px;display:flex;flex-dir
       <text class="l-tg" x="302" y="219" font-size="20">SIECI WOD-KAN W PRAKTYCE</text>
       <rect class="l-dash" x="302" y="254" width="44" height="5"/>
       <text class="l-sv" x="362" y="262" font-size="19">modelowanie · analizy · strefowanie · doradztwo</text>
+    </svg>
+    <svg class="v" viewBox="0 0 360 560" aria-hidden="true">
+      <rect class="l-bg" width="360" height="560"/>
+      <use href="#syg" x="60" y="10" width="240" height="292"/>
+      <text class="l-nm" x="180" y="372" font-size="38" text-anchor="middle">Mikołaj Jaczyński</text>
+      <text class="l-tg" x="180" y="410" font-size="14.5" text-anchor="middle">SIECI WOD-KAN W PRAKTYCE</text>
+      <rect class="l-dash" x="158" y="436" width="44" height="5"/>
+      <text class="l-sv" x="180" y="478" font-size="17" text-anchor="middle">modelowanie · analizy</text>
+      <text class="l-sv" x="180" y="504" font-size="17" text-anchor="middle">strefowanie · doradztwo</text>
     </svg>
     <a class="li" href="https://www.linkedin.com/in/mikolajjaczynski" target="_blank" rel="noopener" aria-label="Profil LinkedIn" title="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg></a>
   </h1>
