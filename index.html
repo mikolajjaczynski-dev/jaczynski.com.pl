@@ -25,8 +25,8 @@ main{max-width:960px;margin:0 auto;padding:var(--pad) 16px;display:flex;flex-dir
 
 /* 1. wizytówka (logo poziome / pionowe) */
 .logo{position:relative;width:100%;max-width:var(--sw);display:block;margin:0;background:#ffffff}
-.li{position:absolute;top:10px;right:10px;display:grid;place-items:center;width:48px;height:48px;border-radius:6px;color:#0f2e44;opacity:.75;transition:opacity .2s,color .2s}
-.li svg{width:33px;height:33px;fill:currentColor}
+.li{position:absolute;top:10px;right:10px;display:grid;place-items:center;width:32px;height:32px;border-radius:4px;color:#0f2e44;opacity:.75;transition:opacity .2s,color .2s}
+.li svg{width:22px;height:22px;fill:currentColor}
 .li:hover,.li:focus-visible{opacity:1;color:#0a66c2}
 .li:focus-visible{outline:2px solid var(--wodociag);outline-offset:2px}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .li{color:#ffffff}}
@@ -91,8 +91,8 @@ main{max-width:960px;margin:0 auto;padding:var(--pad) 16px;display:flex;flex-dir
  .step{height:100vh;height:100svh;scroll-snap-align:start}
  .prog button{font-size:9.5px}
  .prog .lg{display:none}
- .li{top:4px;right:4px;width:36px;height:36px}
- .li svg{width:24px;height:24px}
+ .li{top:4px;right:4px;width:72px;height:72px;border-radius:8px}
+ .li svg{width:48px;height:48px}
 }
 @media (max-width:600px) and (prefers-reduced-motion:reduce){.down{animation:none}}
 @media (prefers-reduced-motion:reduce){.wip i,.wip span::after{animation:none}.wip span::after{width:1.05ch}}
