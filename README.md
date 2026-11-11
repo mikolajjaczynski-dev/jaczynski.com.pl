@@ -3,6 +3,14 @@
 Strona „w budowie” — Mikołaj Jaczyński · Sieci wod-kan w praktyce.
 Publikowana przez GitHub Pages (gałąź main, katalog główny).
 
+## Układ strony
+
+- **Komputer:** u góry poziome logo (sygnet + nazwisko i usługi), pod nim animacja.
+- **Telefon (szerokość ≤ 600 px):** pierwszy ekran zajmuje całą wysokość: pionowe
+  logo (duży sygnet, pod nim nazwisko, „SIECI WOD-KAN W PRAKTYCE”, usługi w dwóch
+  liniach) i strzałka w dół. Dalej animacja przewijana krokami.
+- Ikona LinkedIn w prawym górnym rogu logo: 32 px na komputerze, 72 px na telefonie.
+
 ## Google
 
 - `robots.txt`: pozwala indeksować całą stronę i wskazuje mapę strony.
